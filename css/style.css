@@ -202,7 +202,7 @@ h2::before {
 }
 .container__blog__background {
     width: 100vw;
-    height: 503px;
+    height: 645px;
     margin: 0 auto;
     background-color: #28272C;
     color: var(--main-white);
@@ -210,7 +210,8 @@ h2::before {
 .container__service {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 45px;
 }
 
 .container__service img {
@@ -219,6 +220,30 @@ h2::before {
 }
 
 .container__service .article {
+    width: 231px;
     align-items: center;
     gap: 45px;
+}
+
+.container__contact {
+    width: 904px;
+    display: flex;
+}
+
+.form {
+    width: 50%;
+    padding: 10px;
+}
+form * {
+    display: block;
+}
+
+.container__contact {
+    width: 1088px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__contact img {
+    width: 50%;
 }
