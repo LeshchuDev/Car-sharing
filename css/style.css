@@ -305,10 +305,18 @@ h2::before {
     border-radius: 8px;
     border: 1px solid var(--main-gray-lite);
  }
- 
- .name, .send {
+
+ input:focus,
+ textarea:focus {
+    outline: none;
     border: 1px solid #FF0000;
     box-shadow: 0px 1px 6px #FF00004D;
+ }
+ 
+ .send {
+    border: 1px solid #FF0000;
+    box-shadow: 0px 1px 6px #FF00004D;
+    cursor: pointer;
  }
 
  .container__footer {
